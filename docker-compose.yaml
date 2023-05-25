@@ -1,0 +1,8 @@
+version: "3"
+services:
+  pyspark:
+    image: "jupyter/all-spark-notebook"
+    volumes:
+      - /Users/faitusjelinejoseph/Documents/Application/Spark/pyspark-data:/home/jovyan
+    ports:
+      - 8888:8888
